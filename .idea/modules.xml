@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudGateWay/SpringCloudGateWay.iml" filepath="$PROJECT_DIR$/SpringCloudGateWay/SpringCloudGateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baeldung/baeldung.iml" filepath="$PROJECT_DIR$/baeldung/baeldung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
+    </modules>
+  </component>
+</project>
