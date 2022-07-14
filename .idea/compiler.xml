@@ -10,10 +10,14 @@
         <module name="EurekaServer" />
         <module name="SpringCloudGateWay" />
         <module name="baeldung" />
+        <module name="ConfigService" />
+        <module name="ConfigServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="baeldung" target="17" />
+      <module name="ConfigServer" target="17" />
+      <module name="ConfigService" target="17" />
       <module name="EurekaClient" target="17" />
       <module name="EurekaServer" target="17" />
       <module name="SpringCloudGateWay" target="17" />
@@ -22,6 +26,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="ConfigService" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="SpringCloudGateWay" options="-parameters" />
